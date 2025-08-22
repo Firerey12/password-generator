@@ -1,0 +1,1 @@
+This is just a simple app that will generate two passwords for the user to pick from.
