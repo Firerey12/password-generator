@@ -1,3 +1,71 @@
 body {
     margin: 0;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#card {
+    border: 2px solid #10B981;
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6cap black;
+}
+
+.green {
+    color: #10B981;
+}
+
+.card-title {
+    font-family: "Karla", sans-serif;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card-desc {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+
+.card-btn {
+    border: 1px solid #10B981;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px 15px;
+    background: #10B981;
+    color: white;
+    transition-duration: 0.4s;
+    margin-top: 60px;
+}
+
+.card-btn:hover {
+    border: 1px solid #10B981;
+    background: none;
+    color: #10B981;
+}
+
+hr {
+    margin: 40px 5px;
+}
+.passwords {
+    display: flex;
+    justify-content: center;
+}
+.password {
+    background: #273549;
+    color: #10B981;
+    margin: 0px 5px;
+    border: none;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    height: 45px;
 }
